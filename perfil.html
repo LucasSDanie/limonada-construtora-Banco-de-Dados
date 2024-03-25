@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+
+<body>
+    <div class="top">
+        
+        <h1>
+            <div id="nomeContainer"></div>
+        </h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // Retrieve the name from localStorage
+        var nome = localStorage.getItem("nome");
+
+        // Display the name on the page
+        var nomeContainer = document.getElementById('nomeContainer');
+        nomeContainer.textContent = 'Bem-Vindo, ' + nome + '!';
+    </script>
+</body>
+
+</html>
