@@ -1,0 +1,300 @@
+a {
+    text-decoration: none;
+}
+
+.limonadaImg {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+}
+
+.grid {
+    margin-top: 40px;
+}
+
+.inicio {
+    color: #019d4f;
+    font-weight: 600;
+    font-size: 23px;
+    margin-right: 30px;
+    margin-left: 60px;
+}
+
+.bt_quem_somos {
+    color: rgba(255, 255, 0, 0.808);
+    font-weight: 600;
+    font-size: 23px;
+    margin-right: 30px;
+    font-family: "Roboto", Sans-serif;
+}
+
+.botoes {
+    color: #019d4f;
+    font-weight: 600;
+    font-size: 23px;
+    margin-right: 30px;
+    font-family: "Roboto", Sans-serif;
+}
+
+.botoes:hover {
+    color: rgba(255, 255, 0, 0.808);
+}
+
+.inicio:hover {
+    color: rgba(255, 255, 0, 0.808);
+}
+
+.imageUser {
+    width: 35px;
+    height: auto;
+}
+
+.divQuemSomos {
+    display: flex;
+    flex-direction: row;
+}
+
+.linhaAmarela {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 950px;
+    height: 30px;
+}
+
+.QuemSomos {
+    color: #019D4F;
+    font-weight: 1000;
+    font-size: 25px;
+    font-family: "Roboto", Sans-serif;
+    /*Fonte das letras*/
+    margin-left: 80px;
+}
+
+
+.engenheiroFoto {
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.ftEngenheiro {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.texto-sobre-imagem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.corzinha {
+    background-color: rgba(0, 0, 0, 0.432);
+    /*Cor de fundo com opacidade*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.informacoes {
+    color: #019D4F;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 1000;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.divNossaHistoria {
+    display: flex;
+    flex-direction: row;
+}
+
+.descricaoFoto {
+    color: #019D4F;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 1000;
+    font-size: 18px;
+    margin-right: 70px;
+    margin-left: 15px;
+    margin-top: 60px;
+}
+
+.imgPorDoSol {
+    margin-left: 80px;
+    width: 400px;
+    height: auto;
+}
+
+.ftDescricaoLadoLado {
+    display: flex;
+    flex-direction: row;
+}
+
+.divCompromisso {
+    display: flex;
+    flex-direction: row;
+}
+
+.linhaAmarelaQuemSomos {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 750px;
+    height: 30px;
+}
+
+.imgMulherBeleza {
+    width: 400px;
+    height: auto;
+    margin-right: 80px;
+}
+
+.descricaoFotoMulherBeleza {
+    margin-left: 80px;
+    color: #019D4F;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 1000;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.linhaAmarelaInovacao {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 800px;
+    height: 30px;
+}
+
+.linhaAmarelaClientes {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 600px;
+    height: 30px;
+}
+
+.linhaAmarelaIEquipe {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 1000px;
+    height: 30px;
+}
+
+.linhaAmarelaVisaoFuturo {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 915px;
+    height: 30px;
+}
+
+.nossaEquipe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgEu {
+    width: 400px;
+    height: auto;
+}
+
+.nomeEquipe {
+    color: rgba(255, 255, 0, 0.808);
+    font-weight: 1000;
+    font-size: 25px;
+    font-family: "Roboto", Sans-serif;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.formacaoEquipe {
+    color: #019D4F;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 1000;
+    font-size: 18px;
+    margin: 0px;
+    margin-right: 150px;
+}
+
+.descricaoEquipe {
+    color: #019D4F;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 1000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    width: 500px;
+}
+
+.footerVerde {
+    background-color: #019D4F;
+    color: #FFC100;
+    text-align: center;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.footerAmarelo {
+    background-color: #FFC100;
+    padding: 16px;
+    text-align: center;
+}
+
+.imagemFooter {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.containerImagem {
+    position: relative;
+    cursor: pointer;
+}
+
+.canto-inferior-direito {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    width: 15px;
+    height: auto;
+    background-color: #019D4F;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.canto-inferior-esquerdo {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    width: 60px;
+    height: auto;
+}
+
+.imagemLinkedin {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 270px;
+}

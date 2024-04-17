@@ -1,48 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
+    <title>Perfil do Usuário</title>
     <link rel="stylesheet" href="perfil.css">
 </head>
-
 <body>
-    <div class="top">
-        
-        <h1>
-            <div id="nomeContainer"></div>
-        </h1>
+    <div class="profile-info">
+        <h2>Informações do Usuário</h2>
+        <p>Nome: <span id="profile-nome"></span></p>
+        <p>Senha: <span id="profile-senha"></span></p>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script>
-        // Retrieve the name from localStorage
+        // Retrieve data from localStorage
         var nome = localStorage.getItem("nome");
-
-        // Display the name on the page
-        var nomeContainer = document.getElementById('nomeContainer');
-        nomeContainer.textContent = 'Bem-Vindo, ' + nome + '!';
+        var senha = localStorage.getItem("senha");
+     
+        // Display data in the profile page
+        document.getElementById("profile-nome").textContent = nome;
+        document.getElementById("profile-senha").textContent = senha;
     </script>
 </body>
-
 </html>
